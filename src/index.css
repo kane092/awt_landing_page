@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --Primary-Text: #121E31;
+  --Secondary-Text: #717579;
+  --Tertiary-Text: #D7D7D7;
+
+  --Primary: #1B8271;
+  --Secondary: #FF7468;
+  --Light: #EEE;
+  --Background: #FBFBFB;
+  --Dark: #080A12;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('asset/font/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('asset/font/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('asset/font/Inter-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Poppins';
+}
+
+.primary-text {
+  color: var(--Primary-Text);
+}
+
+.secondary-text {
+  color: var(--Secondary-Text);
+}
+
+.color-primary {
+  color: var(--Primary);
+}
+
+.color-light {
+  color: var(--Light);
+}
+
+.color-dark {
+  color: var(--Dark);
+}
+
+.bg-primary {
+  background: var(--Primary);
+}
+
+.bg-light {
+  background: var(--Light);
+}

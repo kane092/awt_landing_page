@@ -1,0 +1,29 @@
+.primary-font {
+    color: var(--Primary);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.primary-text-title {
+    color: var(--Primary-Text);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.primary-text-content {
+    color: var(--Primary-Text);
+    font-family: 'OpenSans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.custom-modal {
+    max-width:1114px;
+    width: 1114px;
+    padding: 40px;
+}
+
+.no-button {
+    display: none;
+}

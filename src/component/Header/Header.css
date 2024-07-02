@@ -1,0 +1,8 @@
+.header {
+    width: calc(100%+35px);
+    margin-left: -35px;
+    background-image: url("/src/asset/img/header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
